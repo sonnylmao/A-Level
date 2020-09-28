@@ -50,6 +50,9 @@ def ASC(character):
     #Changes a character into its ASCII number.
     return ord(character)
 
-# example function being called    
-my_string = LEFT("hello",2)
-print(my_string)
+print("==============================")
+print("Select a function no.")
+print("[1] LEFT\n[2] RIGHT\n[3] MID\n[4] LENGTH\n[5] LCASE\n[6] UCASE\n[7] NUM_TO_STRING\n[8] STRING_TO_NUM\n[9] INT\n[10] ASC")
+userchoice = int(input("Select a function number:"))
+
+if userchoice == 1:
